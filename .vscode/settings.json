@@ -1,0 +1,6 @@
+{
+    "code-runner.enableAppInsights": false,
+    "code-runner.executorMap": {
+        "shellscript": " bash"
+    }
+}

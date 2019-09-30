@@ -1,4 +1,4 @@
-n=5
+n=6
 factorial=1
 for (( number = 1; number <= $n ; number++ ))
 do
