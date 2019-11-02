@@ -1,6 +1,8 @@
 *.jpg
 books
+file
 
 *.tmp
 *.bak
 *.out
+*.docx

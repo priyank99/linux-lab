@@ -1,9 +1,9 @@
 #!/bin/sh
 echo "Enter 2 numbers: "
-#read na
-#read nb
-na=100.1
-nb=3.142
+read na
+read nb
+# na=100.1
+# nb=3.142
 add=$(echo "scale=4; $na+$nb" | bc)
 sub=$(echo "scale=4; $na-$nb" | bc)
 mul=$(echo "scale=4; $na*$nb" | bc)

@@ -1,5 +1,10 @@
 if [ $# = 2 ]
 then
+    if [ ! -e "$2" ]
+    then
+        touch "$2"
+    fi
+    
     if [[ -r $1 && -w $2 ]]
     then
         echo "$1: readable"

@@ -1,9 +1,9 @@
 #!/bin/sh
 echo "Enter 2 numbers: "
-#read num1
-#read num2
-num1=2
-num2=3
+read num1
+read num2
+# num1=2
+# num2=3
 add=$((num1 + num2))
 sub=$((num1 - num2))
 mul=$((num1 * num2))

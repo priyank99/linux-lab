@@ -8,12 +8,12 @@ function remove {
 
     echo $filename2
     grep -v $word $filename > $filename2
-    # ; mv $filename2 $filename
 }
 
-echo $#
+echo $# arguments
 args=("$@") 
 word=$1
+
 for (( i = 1; i < $# ; i++ ))
 do
     remove ${args[${i}]} $word

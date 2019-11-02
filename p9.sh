@@ -1,4 +1,4 @@
-number=43
+read number
 i=2
 f=0
 
